@@ -27,7 +27,7 @@ public class HomePage {
 	
 	public void takeHomeScreenshot() throws Exception
 	{
-		// Taking ScreenShot of Login Page
+		// Taking ScreenShot of Home Page
 		File ScreenShotFile1 = ((TakesScreenshot) driver) .getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(ScreenShotFile1,new File(".//screenshot/Home.png"));  
 
